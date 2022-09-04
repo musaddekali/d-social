@@ -1,0 +1,1121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>appify</title>
+  <link rel="stylesheet" href="./assets//vendor//bootstrap5/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/styles.css" />
+</head>
+
+<body>
+  <div class="root">
+    <!-- ======= Header ======= -->
+    <header class="header d-flex align-items-center fixed-top">
+      <div class="container">
+        <nav class="nav-menu d-lg-flex justify-content-between align-items-center">
+
+          <!-- Mobile menu item  -->
+          <div class="nav-menu-top d-flex d-lg-none  justify-content-between">
+            <a href="index.html" class="logo flex-shrink-0">
+              <img height="40" width="40" src="./assets/images/logo.png" alt="logo" />
+            </a>
+            <div class="d-flex align-items-center gap-3">
+              <button class="search-btn btn"><i class="bi bi-search"></i></button>
+              <button class="btn menu-btn"><i class="bi bi-list"></i></button>
+            </div>
+          </div>
+
+          <a href="index.html" class="logo d-none d-lg-inline-block">
+            <img src="./assets/images/logo.png" alt="logo" />
+          </a>
+          <div class="nav-menu-search d-none d-lg-flex align-items-center">
+            <i class="bi bi-search"></i>
+            <input type="text" placeholder="Search" />
+          </div>
+          <div class="nav-menu-nav d-flex align-items-center">
+            <div class="nav-menu-items w-100">
+              <!-- home -->
+              <a href="index.html" class="nav-menu-item active">
+                <i class="bi bi-house-door"></i>
+              </a>
+              <!-- group -->
+              <a href="#" class="nav-menu-item">
+                <i class="bi bi-people"></i>
+              </a>
+              <!-- bell -->
+              <a href="#" class="nav-menu-item">
+                <i class="bi bi-bell"></i>
+              </a>
+              <!-- message -->
+              <a href="#" class="nav-menu-item">
+                <i class="bi bi-chat-left"></i>
+              </a>
+              <div class="nav-menu-item nav-menu-user d-flex align-items-center gap-2">
+                <img heigh="30" width="30" src="./assets/images/person-1.jpg" alt="user"
+                  class="rounded rounded-circle" />
+                <span class="user-name d-none d-md-inline">Adnan Chowdhury</span>
+                <i class="bi bi-chevron-down"></i>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- End Header -->
+    <!-- Main  -->
+    <main class="main">
+      <!-- ======= Content ======= -->
+      <div class="content-section">
+        <div class="container">
+          <div class="row">
+            <div class="content-left d-none d-lg-block col-lg-3">
+              <div>
+                <!-- explore  -->
+                <div class="list-box">
+                  <h4 class="list-box-title">Explore</h4>
+                  <div class="list-box-item">
+                    <div class="list-box-icon">
+                      <i class="bi bi-folder"></i>
+                    </div>
+                    <div class="list-box-text">
+                      <p class="primary-text">Saved Post</p>
+                    </div>
+                  </div>
+                  <div class="list-box-item">
+                    <div class="list-box-icon">
+                      <i class="bi bi-person"></i>
+                    </div>
+                    <div class="list-box-text">
+                      <p class="primary-text">People</p>
+                    </div>
+                  </div>
+                  <div class="list-box-item">
+                    <div class="list-box-icon">
+                      <i class="bi bi-people"></i>
+                    </div>
+                    <div class="list-box-text">
+                      <p class="primary-text">Groups</p>
+                    </div>
+                  </div>
+                  <div class="list-box-item">
+                    <div class="list-box-icon">
+                      <i class="bi bi-layout-text-window"></i>
+                    </div>
+                    <div class="list-box-text">
+                      <p class="primary-text">Pages</p>
+                    </div>
+                  </div>
+                  <div class="list-box-item">
+                    <div class="list-box-icon">
+                      <i class="bi bi-calendar4-event"></i>
+                    </div>
+                    <div class="list-box-text">
+                      <p class="primary-text">Events</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- end explore -->
+                <!-- Download  -->
+                <div class="download-box">
+                  <h4 class="download-box-title">Download App</h4>
+                  <div class="download-box-links d-flex gap-1">
+                    <a href="#">
+                      <img class="img-fluid" src="./assets/images/appstore-logo.png" alt="appstore-logo" />
+                    </a>
+                    <a href="#">
+                      <img class="img-fluid" src="./assets/images/google-play-logo.png" alt="playstore-logo" />
+                    </a>
+                  </div>
+                </div>
+                <!-- End Download  -->
+                <!-- Suggested People  -->
+                <div class="list-box">
+                  <h4 class="list-box-title">Suggested People</h4>
+                  <div class="list-box-item">
+                    <div class="list-box-icon">
+                      <img width="40" height="40" src="./assets/images/person-2.jpg" alt="person" />
+                    </div>
+                    <div class="list-box-text">
+                      <p class="primary-text">Seddek Hossain</p>
+                    </div>
+                    <a href="#" class="btn btn-sm btn-lite ms-auto">Add +</a>
+                  </div>
+                </div>
+                <!-- End Suggested People -->
+              </div>
+            </div>
+            <!-- End Left  -->
+            <!-- ======= Feed ======= -->
+            <div class="feed col-lg-6">
+              <!-- Story -->
+              <div class="story">
+                <div class="story-items">
+                  <div class="story-item story-item-author">
+                    <div class="story-item-author-action">
+                      <label for="story">
+                        <i class="bi bi-plus"></i>
+                      </label>
+                      <input class="d-none" type="file" name="story" id="story" />
+                      <span>Your Story</span>
+                    </div>
+                  </div>
+                  <div class="story-item">
+                    <div class="story-img">
+                      <img src="./assets/images/post/post-1.jpg" alt="story" />
+                    </div>
+                    <div class="story-user-img">
+                      <img src="./assets//images/person-1.jpg" alt="friends-story" />
+                    </div>
+                    <div class="story-user-name">
+                      <span>Adnan Chowdhury</span>
+                    </div>
+                  </div>
+                  <div class="story-item">
+                    <div class="story-img">
+                      <img src="./assets/images/post/post-2.jpg" alt="story" />
+                    </div>
+                    <div class="story-user-img">
+                      <img src="./assets//images/person-1.jpg" alt="friends-story" />
+                    </div>
+                    <div class="story-user-name">
+                      <span>Mahid Ahmod</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End Story  -->
+              <!-- Post Input  -->
+              <div class="post-input">
+                <div class="post-input-top">
+                  <a href="#">
+                    <img src="./assets/images/person-1.jpg" alt="author" />
+                  </a>
+                  <form class="post-input-form">
+                    <input type="text" placeholder="Create a new post..." />
+                  </form>
+                </div>
+                <hr />
+                <div class="post-input-bottom">
+                  <button class="btn">
+                    <i class="bi bi-circle-half"></i>
+                    <span class="d-none d-md-inline">Background</span>
+                  </button>
+                  <button class="btn">
+                    <i class="bi bi-camera-fill"></i>
+                    <span class="d-none d-md-inline">Photo/Video</span>
+                  </button>
+                  <button class="btn">
+                    <i class="bi bi-emoji-smile"></i>
+                    <span class="d-none d-md-inline">Feeling/Activity</span>
+                  </button>
+                </div>
+              </div>
+              <!-- End Post Input -->
+              <!-- Post Category -->
+              <div class="post-cat">
+                <button class="post-cat-btn active">Public post</button>
+                <button class="post-cat-btn">Friend post</button>
+              </div>
+              <!-- End Post Category  -->
+              <!-- Post  -->
+              <div class="post">
+                <div class="post-hd mb-3 d-flex align-items-center">
+                  <a class="post-user-img me-3" href="#">
+                    <img width="40" height="40" src="./assets/images/person-2.jpg" alt="friend" />
+                  </a>
+                  <div class="text">
+                    <div>
+                      <a href="#" class="post-user-name">Mahid Ahmod</a>
+                      <span class="d-none d-md-inline">Felling Amazing</span>
+                    </div>
+                    <div class="time">
+                      <span>1 hour ago</span>
+                      <span class="icon">
+                        <i class="bi bi-globe"></i>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="position-relative ms-auto">
+                    <button onclick="handleMenu(this);" class="post-menu-btn">
+                      <i class="bi bi-chevron-down"></i>
+                    </button>
+                    <!-- post dropdown menu -->
+                    <div class="post-menu">
+                      <div class="item">
+                        <i class="bi bi-bookmark-fill"></i>
+                        <span>Save Post</span>
+                      </div>
+                      <div class="item">
+                        <i class="bi bi-flag-fill"></i>
+                        <span>Report Post</span>
+                      </div>
+                      <div class="item">
+                        <i class="bi bi-pencil-fill"></i>
+                        <span>Edit Post</span>
+                      </div>
+                      <div class="item">
+                        <i class="bi bi-trash-fill"></i>
+                        <span>Delete Post</span>
+                      </div>
+                      <hr style="margin: 0.3rem 0" />
+                      <div class="item">
+                        <i class="bi bi-link-45deg"></i>
+                        <span>Open post in new tab</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <p class="post-desc">Your favourate game</p>
+                <div class="post-vote-items">
+                  <div class="row mb-3 post-vote-item">
+                    <div class="col-md-8">
+                      <div class="vote-left">
+                        <input checked type="checkbox" style="width: 20px; height: 20px">
+                        <div class="text-box">
+                          <small>Added by you</small>
+                          <p class="mb-0">Football</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="vote-right">
+                        <div class="d-grid align-items-center text-center ms-5">
+                          <i class="bi bi-person-circle"></i>
+                          <span>1 Vote</span>
+                        </div>
+                        <button class="btn ms-0 ms-md-auto"><i class="bi bi-x"></i></button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row mb-3 post-vote-item">
+                    <div class="col-md-8">
+                      <div class="vote-left">
+                        <input type="checkbox" style="width: 20px; height: 20px">
+                        <div class="text-box">
+                          <small>Added by you</small>
+                          <p class="mb-0">Cricket</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="vote-right">
+                        <button class="btn ms-0 ms-md-auto"><i class="bi bi-x"></i></button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row mb-3 post-vote-item">
+                    <div class="col-md-8">
+                      <div class="vote-left">
+                        <input type="checkbox" style="width: 20px; height: 20px">
+                        <div class="text-box">
+                          <small>Added by you</small>
+                          <p class="mb-0">Badminton</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="vote-right">
+                        <div class="d-grid align-items-center text-center ms-5">
+                          <i class="bi bi-person-circle"></i>
+                          <span>1 Vote</span>
+                        </div>
+                        <button class="btn ms-0 ms-md-auto"><i class="bi bi-x"></i></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="post-stat mt-5 mb-3 d-flex align-items-center justify-content-between">
+                  <div class="d-flex align-items-center gap-sm-3">
+                    <span class="icons">
+                      <img height="25" width="25" src="./assets/images/like.png" class="img-fluid" alt="like" />
+                      <img height="25" width="25" src="./assets/images/smile.png" class="img-fluid" alt="like" />
+                      <img height="25" width="25" src="./assets/images/heart.png" class="img-fluid" alt="like" />
+                    </span>
+                    <span class="count text-decoration-underline">You and 2 others</span>
+                  </div>
+                  <div class="comment-count"><span>1</span> Comment</div>
+                </div>
+                <div class="post-options mb-3">
+                  <button>
+                    <img width="22" height="22" src="./assets/images/heart.png" alt="heart" />
+                    <span class="d-none d-sm-inline post-loved-text">Love</span>
+                  </button>
+                  <button>
+                    <i class="bi bi-chat-left"></i>
+                    <span class="d-none d-sm-inline">Comment</span>
+                  </button>
+                  <button>
+                    <i class="bi bi-share"></i>
+                    <span class="d-none d-sm-inline">Share</span>
+                  </button>
+                </div>
+                <div class="post-comment-area d-flex justify-content-between gap-2 gap-sm-4">
+                  <a class="post-user-img flex-shrink-0" href="#">
+                    <img width="40" height="40" src="./assets/images/person-2.jpg" alt="author" />
+                  </a>
+                  <div class="post-comment-tools d-flex align-items-center gap-3 flex-grow-1">
+                    <div style="font-size: 20px" class="d-none d-sm-flex gap-2">
+                      <i class="bi bi-emoji-smile-fill"></i>
+                      <i class="bi bi-paperclip"></i>
+                      <i class="bi bi-image-fill"></i>
+                    </div>
+                    <form class="post-comment-form">
+                      <input type="text" placeholder="Write a comment..." />
+                      <button type="submit">
+                        <i class="fas fa-paper-plane"></i>
+                      </button>
+                    </form>
+                  </div>
+                </div>
+                <!-- replay area  -->
+                <div class="post-comment-details-area mt-3">
+                  <div class="comment">
+                    <a class="post-user-img flex-shrink-0" href="#">
+                      <img width="40" height="40" src="./assets/images/person-3.jpg" alt="author" />
+                    </a>
+                    <div class="comment-content">
+                      <h6 class="comment-user-name">Adnan Chowdhury</h6>
+                      <p class="comment-text">This is nice.</p>
+                      <div class="comment-img">
+                        <img src="./assets/images/post/post-2.jpg" alt="comment" class="img-fluid">
+                      </div>
+                      <div class="mt-4">
+                        <span class="comment-react-btn">Like</span>
+                        <span class="comment-replay-btn">Replay</span>
+                        <span class="comment-time">. 54 minutes ago</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="comment replay">
+                    <a class="post-user-img flex-shrink-0" href="#">
+                      <img width="40" height="40" src="./assets/images/person-4.jpg" alt="author" />
+                    </a>
+                    <div class="comment-content">
+                      <h6 class="comment-user-name">Shishir Chowdhury</h6>
+                      <p class="comment-text">Thank you!</p>
+                      <div class="mt-4">
+                        <span class="comment-react-btn">Like</span>
+                        <span class="comment-replay-btn">Replay</span>
+                        <span class="comment-time">. 30 seconds ago</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="post-comment-area d-flex justify-content-between gap-2 gap-sm-4 ps-5">
+                    <a class="post-user-img flex-shrink-0" href="#">
+                      <img width="40" height="40" src="./assets/images/person-2.jpg" alt="author" />
+                    </a>
+                    <div class="post-comment-tools d-flex align-items-center gap-3 flex-grow-1">
+                      <div style="font-size: 20px" class="d-none d-sm-flex gap-2">
+                        <i class="bi bi-emoji-smile-fill"></i>
+                        <i class="bi bi-paperclip"></i>
+                        <i class="bi bi-image-fill"></i>
+                      </div>
+                      <form class="post-comment-form">
+                        <input type="text" placeholder="Write a comment..." />
+                        <button type="submit">
+                          <i class="fas fa-paper-plane"></i>
+                        </button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End Post  -->
+              <!-- Post  -->
+              <div class="post">
+                <div class="post-hd mb-3 d-flex align-items-center">
+                  <a class="post-user-img me-3" href="#">
+                    <img width="40" height="40" src="./assets/images/person-2.jpg" alt="friend" />
+                  </a>
+                  <div class="text">
+                    <div>
+                      <a href="#" class="post-user-name">Mahid Ahmod</a>
+                      <span class="d-none d-md-inline">Felling Amazing</span>
+                    </div>
+                    <div class="time">
+                      <span>1 hour ago</span>
+                      <span class="icon">
+                        <i class="bi bi-globe"></i>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="position-relative ms-auto">
+                    <button onclick="handleMenu(this);" class="post-menu-btn">
+                      <i class="bi bi-chevron-down"></i>
+                    </button>
+                    <!-- post dropdown menu -->
+                    <div class="post-menu">
+                      <div class="item">
+                        <i class="bi bi-bookmark-fill"></i>
+                        <span>Save Post</span>
+                      </div>
+                      <div class="item">
+                        <i class="bi bi-flag-fill"></i>
+                        <span>Report Post</span>
+                      </div>
+                      <div class="item">
+                        <i class="bi bi-pencil-fill"></i>
+                        <span>Edit Post</span>
+                      </div>
+                      <div class="item">
+                        <i class="bi bi-trash-fill"></i>
+                        <span>Delete Post</span>
+                      </div>
+                      <hr style="margin: 0.3rem 0" />
+                      <div class="item">
+                        <i class="bi bi-link-45deg"></i>
+                        <span>Open post in new tab</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <p class="post-desc">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Architecto, quam repellat autem vitae eligendi enim velit
+                  libero aliquam amet eius nulla dolor, quibusdam est ab! Modi
+                  tempora delectus omnis suscipit.
+                </p>
+                <div class="post-images post-images-grid mb-4">
+                  <div class="image">
+                    <img src="./assets/images/post/post-1.jpg" class="img-fluid" alt="post" />
+                  </div>
+                  <div class="image">
+                    <img src="./assets/images/post/post-2.jpg" class="img-fluid" alt="post" />
+                  </div>
+                  <div class="image">
+                    <img src="./assets/images/post/post-3.jpg" class="img-fluid" alt="post" />
+                  </div>
+                  <div class="image">
+                    <img src="./assets/images/post/post-4.jpg" class="img-fluid" alt="post" />
+                  </div>
+                  <div class="image">
+                    <img src="./assets/images/post/post-5.jpg" class="img-fluid" alt="post" />
+                  </div>
+                </div>
+                <div class="post-stat mt-5 mb-3 d-flex align-items-center justify-content-between">
+                  <div class="d-flex align-items-center gap-sm-3">
+                    <span class="icons">
+                      <img height="25" width="25" src="./assets/images/like.png" class="img-fluid" alt="like" />
+                      <img height="25" width="25" src="./assets/images/smile.png" class="img-fluid" alt="like" />
+                      <img height="25" width="25" src="./assets/images/heart.png" class="img-fluid" alt="like" />
+                    </span>
+                    <span class="count text-decoration-underline">You and 2 others</span>
+                  </div>
+                  <div class="comment-count"><span>1</span> Comment</div>
+                </div>
+                <div class="post-options mb-3">
+                  <button>
+                    <img width="22" height="22" src="./assets/images/heart.png" alt="heart" />
+                    <span class="d-none d-sm-inline post-loved-text">Love</span>
+                  </button>
+                  <button>
+                    <i class="bi bi-chat-left"></i>
+                    <span class="d-none d-sm-inline">Comment</span>
+                  </button>
+                  <button>
+                    <i class="bi bi-share"></i>
+                    <span class="d-none d-sm-inline">Share</span>
+                  </button>
+                </div>
+                <div class="post-comment-area d-flex justify-content-between gap-2 gap-sm-4">
+                  <a class="post-user-img flex-shrink-0" href="#">
+                    <img width="40" height="40" src="./assets/images/person-2.jpg" alt="author" />
+                  </a>
+                  <div class="post-comment-tools d-flex align-items-center gap-3 flex-grow-1">
+                    <div style="font-size: 20px" class="d-none d-sm-flex gap-2">
+                      <i class="bi bi-emoji-smile-fill"></i>
+                      <i class="bi bi-paperclip"></i>
+                      <i class="bi bi-image-fill"></i>
+                    </div>
+                    <form class="post-comment-form">
+                      <input type="text" placeholder="Write a comment..." />
+                      <button type="submit">
+                        <i class="fas fa-paper-plane"></i>
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <!-- End Post  -->
+              <!-- Post  -->
+              <div class="post">
+                <div class="post-hd mb-3 d-flex align-items-center">
+                  <a class="post-user-img me-3" href="#">
+                    <img width="40" height="40" src="./assets/images/person-1.jpg" alt="friend" />
+                  </a>
+                  <div class="text">
+                    <div>
+                      <a href="#" class="post-user-name">Musaddek Ali</a>
+                      <span class="d-none d-md-inline">Traveling in Bogura</span>
+                    </div>
+                    <div class="time">
+                      <span>23 days ago</span>
+                      <span class="icon">
+                        <i class="bi bi-globe"></i>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="position-relative ms-auto">
+                    <button onclick="handleMenu(this);" class="post-menu-btn">
+                      <i class="bi bi-chevron-down"></i>
+                    </button>
+                    <!-- post dropdown menu -->
+                    <div class="post-menu">
+                      <div class="item">
+                        <i class="bi bi-bookmark-fill"></i>
+                        <span>Save Post</span>
+                      </div>
+                      <div class="item">
+                        <i class="bi bi-flag-fill"></i>
+                        <span>Report Post</span>
+                      </div>
+                      <div class="item">
+                        <i class="bi bi-pencil-fill"></i>
+                        <span>Edit Post</span>
+                      </div>
+                      <div class="item">
+                        <i class="bi bi-trash-fill"></i>
+                        <span>Delete Post</span>
+                      </div>
+                      <hr style="margin: 0.3rem 0" />
+                      <div class="item">
+                        <i class="bi bi-link-45deg"></i>
+                        <span>Open post in new tab</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <p class="post-desc">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Architecto, quam repellat autem vitae eligendi enim velit
+                  libero aliquam amet eius nulla dolor, quibusdam est ab! Modi
+                  tempora delectus omnis suscipit.
+                </p>
+                <div class="post-images mb-4">
+                  <img src="./assets/images/post/post-2.jpg" class="img-fluid" alt="post" />
+                </div>
+                <div class="post-stat mt-5 mb-3 d-flex align-items-center justify-content-between">
+                  <div class="d-flex align-items-center gap-sm-3">
+                    <span class="icons">
+                      <img height="25" width="25" src="./assets/images/like.png" class="img-fluid" alt="like" />
+                      <img height="25" width="25" src="./assets/images/heart.png" class="img-fluid" alt="like" />
+                    </span>
+                    <span class="count">3</span>
+                  </div>
+                  <div class="comment-count"><span>1</span> Comment</div>
+                </div>
+                <div class="post-options mb-3">
+                  <button>
+                    <i class="bi bi-hand-thumbs-up"></i>
+                    <span class="d-none d-sm-inline">Like</span>
+                  </button>
+                  <button>
+                    <i class="bi bi-chat-left"></i>
+                    <span class="d-none d-sm-inline">Comment</span>
+                  </button>
+                  <button>
+                    <i class="bi bi-share"></i>
+                    <span class="d-none d-sm-inline">Share</span>
+                  </button>
+                </div>
+                <div class="post-comment-area d-flex justify-content-between gap-2 gap-sm-4">
+                  <a class="post-user-img flex-shrink-0" href="#">
+                    <img width="40" height="40" src="./assets/images/person-2.jpg" alt="author" />
+                  </a>
+                  <div class="post-comment-tools d-flex align-items-center gap-3 flex-grow-1">
+                    <div style="font-size: 20px" class="d-none d-sm-flex gap-2">
+                      <i class="bi bi-emoji-smile-fill"></i>
+                      <i class="bi bi-paperclip"></i>
+                      <i class="bi bi-image-fill"></i>
+                    </div>
+                    <form class="post-comment-form">
+                      <input type="text" placeholder="Write a comment..." />
+                      <button type="submit">
+                        <i class="fas fa-paper-plane"></i>
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <!-- End Post  -->
+              <!-- Post  -->
+              <div class="post">
+                <div class="post-hd mb-3 d-flex align-items-center">
+                  <a class="post-user-img me-3" href="#">
+                    <img width="40" height="40" src="./assets/images/person-3.jpg" alt="friend" />
+                  </a>
+                  <div class="text">
+                    <div>
+                      <a href="#" class="post-user-name">Karim Ahmed</a>
+                      <span class="d-none d-md-inline">Updated profile picture</span>
+                    </div>
+                    <div class="time">
+                      <span>5 hour ago</span>
+                      <span class="icon">
+                        <i class="bi bi-globe"></i>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="position-relative ms-auto">
+                    <button onclick="handleMenu(this);" class="post-menu-btn">
+                      <i class="bi bi-chevron-down"></i>
+                    </button>
+                    <!-- post dropdown menu -->
+                    <div class="post-menu">
+                      <div class="item">
+                        <i class="bi bi-bookmark-fill"></i>
+                        <span>Save Post</span>
+                      </div>
+                      <div class="item">
+                        <i class="bi bi-flag-fill"></i>
+                        <span>Report Post</span>
+                      </div>
+                      <div class="item">
+                        <i class="bi bi-pencil-fill"></i>
+                        <span>Edit Post</span>
+                      </div>
+                      <div class="item">
+                        <i class="bi bi-trash-fill"></i>
+                        <span>Delete Post</span>
+                      </div>
+                      <hr style="margin: 0.3rem 0" />
+                      <div class="item">
+                        <i class="bi bi-link-45deg"></i>
+                        <span>Open post in new tab</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- <div class="post-images mb-4">
+                  <img src="./assets/images/post/post-6.jpg" class="img-fluid" alt="post" />
+                </div> -->
+                <div class="post-bg-text">
+                  <span>Today I'm Felling Happy.</span>
+                </div>
+                <div class="post-stat mt-5 mb-3 d-flex align-items-center justify-content-between">
+                  <div class="d-flex align-items-center gap-sm-3">
+                    <span class="icons">
+                      <img height="25" width="25" src="./assets/images/like.png" class="img-fluid" alt="like" />
+                      <img height="25" width="25" src="./assets/images/heart.png" class="img-fluid" alt="like" />
+                      <img height="25" width="25" src="./assets/images/angry.png" class="img-fluid" alt="angry" />
+                    </span>
+                    <span class="count">3</span>
+                  </div>
+                  <div class="comment-count"><span>1</span> Comment</div>
+                </div>
+                <div class="post-options mb-3">
+                  <button>
+                    <img width="22" height="22" src="./assets/images/angry.png" alt="angry" />
+                    <span class="d-none d-sm-inline post-angry-text">Angry</span>
+                  </button>
+                  <button>
+                    <i class="bi bi-chat-left"></i>
+                    <span class="d-none d-sm-inline">Comment</span>
+                  </button>
+                  <button>
+                    <i class="bi bi-share"></i>
+                    <span class="d-none d-sm-inline">Share</span>
+                  </button>
+                </div>
+                <div class="post-comment-area d-flex justify-content-between gap-2 gap-sm-4">
+                  <a class="post-user-img flex-shrink-0" href="#">
+                    <img width="40" height="40" src="./assets/images/person-2.jpg" alt="author" />
+                  </a>
+                  <div class="post-comment-tools d-flex align-items-center gap-3 flex-grow-1">
+                    <div style="font-size: 20px" class="d-none d-sm-flex gap-2">
+                      <i class="bi bi-emoji-smile-fill"></i>
+                      <i class="bi bi-paperclip"></i>
+                      <i class="bi bi-image-fill"></i>
+                    </div>
+                    <form class="post-comment-form">
+                      <input type="text" placeholder="Write a comment..." />
+                      <button type="submit">
+                        <i class="fas fa-paper-plane"></i>
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <!-- End Post  -->
+              <!-- Post  -->
+              <div class="post">
+                <div class="post-hd mb-3 d-flex align-items-center">
+                  <a class="post-user-img me-3" href="#">
+                    <img width="40" height="40" src="./assets/images/person-4.jpg" alt="friend" />
+                  </a>
+                  <div class="text">
+                    <div>
+                      <a href="#" class="post-user-name">Salam Mojumdar</a>
+                      <span class="d-none d-md-inline">Felling wow</span>
+                    </div>
+                    <div class="time">
+                      <span>1 hour ago</span>
+                      <span class="icon">
+                        <i class="bi bi-globe"></i>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="position-relative ms-auto">
+                    <button onclick="handleMenu(this);" class="post-menu-btn">
+                      <i class="bi bi-chevron-down"></i>
+                    </button>
+                    <!-- post dropdown menu -->
+                    <div class="post-menu">
+                      <div class="item">
+                        <i class="bi bi-bookmark-fill"></i>
+                        <span>Save Post</span>
+                      </div>
+                      <div class="item">
+                        <i class="bi bi-flag-fill"></i>
+                        <span>Report Post</span>
+                      </div>
+                      <div class="item">
+                        <i class="bi bi-pencil-fill"></i>
+                        <span>Edit Post</span>
+                      </div>
+                      <div class="item">
+                        <i class="bi bi-trash-fill"></i>
+                        <span>Delete Post</span>
+                      </div>
+                      <hr style="margin: 0.3rem 0" />
+                      <div class="item">
+                        <i class="bi bi-link-45deg"></i>
+                        <span>Open post in new tab</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <p class="post-desc">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Architecto, quam repellat autem vitae eligendi enim velit
+                  libero aliquam amet eius nulla dolor, quibusdam est ab! Modi
+                  tempora delectus omnis suscipit.
+                </p>
+                <div class="post-images mb-4">
+                  <img src="./assets/images/post/post-11.jpg" class="img-fluid" alt="post" />
+                </div>
+                <div class="post-stat mt-5 mb-3 d-flex align-items-center justify-content-between">
+                  <div class="d-flex align-items-center gap-sm-3">
+                    <span class="icons">
+                      <img height="25" width="25" src="./assets/images/like.png" class="img-fluid" alt="like" />
+                      <img height="25" width="25" src="./assets/images/heart.png" class="img-fluid" alt="like" />
+                      <img height="25" width="25" src="./assets/images/wow.png" class="img-fluid" alt="like" />
+                      <img height="25" width="25" src="./assets/images/smile.png" class="img-fluid" alt="like" />
+                    </span>
+                    <span class="count">3</span>
+                  </div>
+                  <div class="comment-count"><span>1</span> Comment</div>
+                </div>
+                <div class="post-options mb-3">
+                  <button>
+                    <i class="bi bi-hand-thumbs-up"></i>
+                    <span class="d-none d-sm-inline">Like</span>
+                  </button>
+                  <button>
+                    <i class="bi bi-chat-left"></i>
+                    <span class="d-none d-sm-inline">Comment</span>
+                  </button>
+                  <button>
+                    <i class="bi bi-share"></i>
+                    <span class="d-none d-sm-inline">Share</span>
+                  </button>
+                </div>
+                <div class="post-comment-area d-flex justify-content-between gap-2 gap-sm-4">
+                  <a class="post-user-img flex-shrink-0" href="#">
+                    <img width="40" height="40" src="./assets/images/person-2.jpg" alt="author" />
+                  </a>
+                  <div class="post-comment-tools d-flex align-items-center gap-3 flex-grow-1">
+                    <div style="font-size: 20px" class="d-none d-sm-flex gap-2">
+                      <i class="bi bi-emoji-smile-fill"></i>
+                      <i class="bi bi-paperclip"></i>
+                      <i class="bi bi-image-fill"></i>
+                    </div>
+                    <form class="post-comment-form">
+                      <input type="text" placeholder="Write a comment..." />
+                      <button type="submit">
+                        <i class="fas fa-paper-plane"></i>
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <!-- End Post  -->
+              <!-- Post  -->
+              <div class="post">
+                <div class="post-hd mb-3 d-flex align-items-center">
+                  <a class="post-user-img me-3" href="#">
+                    <img width="40" height="40" src="./assets/images/person-4.jpg" alt="friend" />
+                  </a>
+                  <div class="text">
+                    <div>
+                      <a href="#" class="post-user-name">Salam Mojumdar</a>
+                      <span class="d-none d-md-inline">Felling wow</span>
+                    </div>
+                    <div class="time">
+                      <span>1 hour ago</span>
+                      <span class="icon">
+                        <i class="bi bi-globe"></i>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="position-relative ms-auto">
+                    <button onclick="handleMenu(this);" class="post-menu-btn">
+                      <i class="bi bi-chevron-down"></i>
+                    </button>
+                    <!-- post dropdown menu -->
+                    <div class="post-menu">
+                      <div class="item">
+                        <i class="bi bi-bookmark-fill"></i>
+                        <span>Save Post</span>
+                      </div>
+                      <div class="item">
+                        <i class="bi bi-flag-fill"></i>
+                        <span>Report Post</span>
+                      </div>
+                      <div class="item">
+                        <i class="bi bi-pencil-fill"></i>
+                        <span>Edit Post</span>
+                      </div>
+                      <div class="item">
+                        <i class="bi bi-trash-fill"></i>
+                        <span>Delete Post</span>
+                      </div>
+                      <hr style="margin: 0.3rem 0" />
+                      <div class="item">
+                        <i class="bi bi-link-45deg"></i>
+                        <span>Open post in new tab</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <p class="post-desc">
+                  Ouam repellat autem vitae eligendi enim velit libero aliquam
+                  amet eius nulla dolor, quibusdam est ab! Modi tempora
+                  delectus omnis suscipit.
+                </p>
+                <div class="post-stat mt-5 mb-3 d-flex align-items-center justify-content-between">
+                  <div class="d-flex align-items-center gap-sm-3">
+                    <span class="icons">
+                      <img height="25" width="25" src="./assets/images/like.png" class="img-fluid" alt="like" />
+                      <img height="25" width="25" src="./assets/images/heart.png" class="img-fluid" alt="like" />
+                      <img height="25" width="25" src="./assets/images/wow.png" class="img-fluid" alt="like" />
+                      <img height="25" width="25" src="./assets/images/smile.png" class="img-fluid" alt="like" />
+                    </span>
+                    <span class="count">3</span>
+                  </div>
+                  <div class="comment-count"><span>1</span> Comment</div>
+                </div>
+                <div class="post-options mb-3">
+                  <button>
+                    <i class="bi bi-hand-thumbs-up"></i>
+                    <span class="d-none d-sm-inline">Like</span>
+                  </button>
+                  <button>
+                    <i class="bi bi-chat-left"></i>
+                    <span class="d-none d-sm-inline">Comment</span>
+                  </button>
+                  <button>
+                    <i class="bi bi-share"></i>
+                    <span class="d-none d-sm-inline">Share</span>
+                  </button>
+                </div>
+                <div class="post-comment-area d-flex justify-content-between gap-2 gap-sm-4">
+                  <a class="post-user-img flex-shrink-0" href="#">
+                    <img width="40" height="40" src="./assets/images/person-2.jpg" alt="author" />
+                  </a>
+                  <div class="post-comment-tools d-flex align-items-center gap-3 flex-grow-1">
+                    <div style="font-size: 20px" class="d-none d-sm-flex gap-2">
+                      <i class="bi bi-emoji-smile-fill"></i>
+                      <i class="bi bi-paperclip"></i>
+                      <i class="bi bi-image-fill"></i>
+                    </div>
+                    <form class="post-comment-form">
+                      <input type="text" placeholder="Write a comment..." />
+                      <button type="submit">
+                        <i class="fas fa-paper-plane"></i>
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <!-- End Post  -->
+              <!-- Post  -->
+              <div class="post">
+                <div class="post-hd mb-3 d-flex align-items-center">
+                  <a class="post-user-img me-3" href="#">
+                    <img width="40" height="40" src="./assets/images/person-4.jpg" alt="friend" />
+                  </a>
+                  <div class="text">
+                    <div>
+                      <a href="#" class="post-user-name">Salam Mojumdar</a>
+                      <span class="d-none d-md-inline">Felling wow</span>
+                    </div>
+                    <div class="time">
+                      <span>1 hour ago</span>
+                      <span class="icon">
+                        <i class="bi bi-globe"></i>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="position-relative ms-auto">
+                    <button onclick="handleMenu(this);" class="post-menu-btn">
+                      <i class="bi bi-chevron-down"></i>
+                    </button>
+                    <!-- post dropdown menu -->
+                    <div class="post-menu">
+                      <div class="item">
+                        <i class="bi bi-bookmark-fill"></i>
+                        <span>Save Post</span>
+                      </div>
+                      <div class="item">
+                        <i class="bi bi-flag-fill"></i>
+                        <span>Report Post</span>
+                      </div>
+                      <div class="item">
+                        <i class="bi bi-pencil-fill"></i>
+                        <span>Edit Post</span>
+                      </div>
+                      <div class="item">
+                        <i class="bi bi-trash-fill"></i>
+                        <span>Delete Post</span>
+                      </div>
+                      <hr style="margin: 0.3rem 0" />
+                      <div class="item">
+                        <i class="bi bi-link-45deg"></i>
+                        <span>Open post in new tab</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <p class="post-desc">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Architecto, quam repellat autem vitae eligendi enim velit
+                  libero aliquam amet eius nulla dolor, quibusdam est ab! Modi
+                  tempora delectus omnis suscipit.
+                </p>
+                <div class="post-images mb-4">
+                  <img src="./assets/images/post/post-3.jpg" class="img-fluid" alt="post" />
+                </div>
+                <div class="post-stat mt-5 mb-3 d-flex align-items-center justify-content-between">
+                  <div class="d-flex align-items-center gap-sm-3">
+                    <span class="icons">
+                      <img height="25" width="25" src="./assets/images/like.png" class="img-fluid" alt="like" />
+                      <img height="25" width="25" src="./assets/images/heart.png" class="img-fluid" alt="like" />
+                      <img height="25" width="25" src="./assets/images/wow.png" class="img-fluid" alt="like" />
+                      <img height="25" width="25" src="./assets/images/smile.png" class="img-fluid" alt="like" />
+                    </span>
+                    <span class="count">3</span>
+                  </div>
+                  <div class="comment-count"><span>1</span> Comment</div>
+                </div>
+                <div class="post-options mb-3">
+                  <button>
+                    <i class="bi bi-hand-thumbs-up"></i>
+                    <span class="d-none d-sm-inline">Like</span>
+                  </button>
+                  <button>
+                    <i class="bi bi-chat-left"></i>
+                    <span class="d-none d-sm-inline">Comment</span>
+                  </button>
+                  <button>
+                    <i class="bi bi-share"></i>
+                    <span class="d-none d-sm-inline">Share</span>
+                  </button>
+                </div>
+                <div class="post-comment-area d-flex justify-content-between gap-2 gap-sm-4">
+                  <a class="post-user-img flex-shrink-0" href="#">
+                    <img width="40" height="40" src="./assets/images/person-2.jpg" alt="author" />
+                  </a>
+                  <div class="post-comment-tools d-flex align-items-center gap-3 flex-grow-1">
+                    <div style="font-size: 20px" class="d-none d-sm-flex gap-2">
+                      <i class="bi bi-emoji-smile-fill"></i>
+                      <i class="bi bi-paperclip"></i>
+                      <i class="bi bi-image-fill"></i>
+                    </div>
+                    <form class="post-comment-form">
+                      <input type="text" placeholder="Write a comment..." />
+                      <button type="submit">
+                        <i class="fas fa-paper-plane"></i>
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <!-- End Post  -->
+              <!-- Post  -->
+              <div class="post">
+                <div class="post-not-found">
+                  <h2 class="text-capitalize">There are no postes found!</h2>
+                  <p class="mb-0">Keep checking back later or refresh to get more feed!</p>
+                </div>
+              </div>
+              <!-- End Post  -->
+            </div>
+            <!-- End Feed -->
+            <!-- Right  -->
+            <div class="content-right d-none d-lg-block col-lg-3">
+              <div>
+                <!-- You might like  -->
+                <div class="list-box">
+                  <h4 class="list-box-title">You might like</h4>
+                  <hr class="list-box-devider" />
+                  <div class="list-box-item">
+                    <div class="list-box-icon">
+                      <img src="./assets/images/person-3.jpg" alt="person" />
+                    </div>
+                    <div class="list-box-text">
+                      <p class="primary-text">Saifur</p>
+                      <p class="secondary-text">Web Developer</p>
+                    </div>
+                  </div>
+                  <div class="d-grid gap-2 mt-4" style="grid-template-columns: 1fr 1fr">
+                    <button class="btn btn-lite">Ignor</button>
+                    <button class="btn btn-danger">Follow</button>
+                  </div>
+                </div>
+                <!-- End You might like  -->
+                <!-- Your friends -->
+                <div class="list-box your-fr">
+                  <h4 class="list-box-title">Your friends</h4>
+                  <div class="your-fr-search">
+                    <i class="bi bi-search"></i>
+                    <input type="text" />
+                  </div>
+                  <div class="list-box-item gap-3">
+                    <div class="list-box-icon">
+                      <img src="./assets/images/person-circle.svg" alt="svg" />
+                    </div>
+                    <div class="list-box-text">
+                      <p class="primary-text">Admin</p>
+                    </div>
+                  </div>
+                  <div class="list-box-item gap-3">
+                    <div class="list-box-icon">
+                      <img src="./assets/images/person-5.jpg" alt="person" />
+                    </div>
+                    <div class="list-box-text">
+                      <p class="primary-text">Kazi Musharraf Shishir</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- End Your friends -->
+              </div>
+            </div>
+            <!-- End Right -->
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+  <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
